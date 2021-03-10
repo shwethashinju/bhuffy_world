@@ -7,6 +7,12 @@
 # Ignore bundler config.
 /.bundle
 
+# Ignore all test coverage files
+/coverage
+
+# Ignore DS_Store files on macOS
+.DS_Store
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-journal
@@ -20,4 +26,4 @@
 /node_modules
 /yarn-error.log
 
-.byebug_history
+.byebug_history.DS_Store
